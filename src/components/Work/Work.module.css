@@ -1,0 +1,94 @@
+.myWork {
+  background-color: var(--primary-color);
+  padding: 2rem;
+}
+
+.myWork p {
+  text-align: justify;
+}
+
+.workImg {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.projectCard {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  background-color: var(--default-color);
+  border-radius: 2rem;
+  justify-content: space-between;
+}
+
+.img {
+  filter: grayscale(100);
+  width: 100%;
+  height: 15rem;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  object-fit: cover;
+}
+
+.img:hover {
+  transition: 400ms ease-in-out;
+  filter: none;
+}
+
+.projectCard p {
+  color: var(--primary-color);
+  padding: 0 2rem;
+}
+
+.myWork h4 {
+  margin: 0;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+}
+
+.myWork ul {
+  color: var(--primary-color);
+  font-family: var(--body-font);
+  list-style: square;
+  font-size: 1.1rem;
+}
+
+.myWork a {
+  text-decoration: none;
+  font-family: var(--body-font);
+  color: var(--detail-color);
+  font-weight: 700;
+  border-bottom: 0.2rem solid transparent;
+}
+
+.myWork a:hover {
+  border-bottom: 0.2rem solid var(--detail-color);
+  transition: 400ms;
+}
+
+.techUsed {
+  display: flex;
+  width: 70%;
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+
+.iconsContainer {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  display: flex;
+  border-radius: 10rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  width: 1.7rem;
+}

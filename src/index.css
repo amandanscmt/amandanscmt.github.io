@@ -1,0 +1,75 @@
+:root {
+  --primary-font: 'Playfair Display', serif;
+  --secondary-font: 'Syne', sans-serif;
+  --body-font: 'Manrope', sans-serif;
+
+  --primary-color: #f7ece4;
+  --secondary-color: #d99ab7;
+  --detail-color: #91bea8;
+  --default-color: #0f0e0f;
+
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: var(--secondary-font);
+  font-size: 3.2em;
+  line-height: 1.1; 
+}
+
+h2, h3 {
+  font-family: var(--secondary-font);
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+p {
+  font-family: var(--body-font);
+  font-size: 1.2rem;
+}
+
+em {
+  font-weight: 700;
+  font-style: normal;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--default-color);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: var(--detail-color);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--default-color);
+    background-color: var(--primary-color);
+  }
+  a:hover {
+    color: var(--detail-color);
+  }
+  button {
+    background-color: var(--primary-color);
+  }
+}

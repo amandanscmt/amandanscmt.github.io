@@ -1,0 +1,29 @@
+.footer {
+  background-color: var(--detail-color);
+  padding: 1rem 0 1rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer h4 {
+  margin: 0;
+  font-family: var(--secondary-font);
+  font-size: 2rem;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  font-family: var(--body-font);
+}
+
+.footer a {
+  font-size: 1.2rem;
+  color: var(--default-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  border-bottom: 0.2rem solid var(--secondary-color);
+}

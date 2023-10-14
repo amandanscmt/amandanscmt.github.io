@@ -1,0 +1,38 @@
+.profile {
+  background-color: var(--secondary-color);
+  display: flex;
+  padding: 3rem;
+  flex-direction: row;
+}
+
+.profilePic {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 100%;
+  float: left;
+  margin: 0.5rem;
+  filter: grayscale(100);
+}
+
+.profilePic:hover {
+  filter: none;
+  transition: 400ms;
+}
+
+.profileText {
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.xpText {
+  width: 60%;
+  margin-left: 2rem;
+}
+
+hr {
+  border: none;
+  border-left: 1px solid var(--default-color);
+  height: auto;
+  width: 1px;
+}

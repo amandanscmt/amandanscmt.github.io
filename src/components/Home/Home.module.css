@@ -1,0 +1,49 @@
+.header {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headerText {
+  font-family: var(--secondary-font);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-self: center;
+}
+
+.headerText h1, h2 {
+  margin: 0.5rem;
+}
+
+.headerImg {
+  width: 50%;
+}
+
+.socialIcons {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.iconsContainer {
+  padding: 1rem;
+  background-color: var(--default-color);
+  display: flex;
+  border-radius: 10rem;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.iconsContainer:hover {
+  background-color: var(--secondary-color);
+  transition: 400ms;
+}
+
+.icons {
+  width: 1.7rem;
+}
