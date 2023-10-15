@@ -14,7 +14,7 @@
 }
 
 .projectCard {
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,4 +91,63 @@
 
 .icons {
   width: 1.7rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .projectCard {
+    margin-top: 2rem;
+  }
+  .workImg {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projectCard {
+    width: 90%;
+  }
+  .myWork h4 {
+    font-size: 2rem;
+  }
+  .myWork ul {
+    font-size: 1.5rem;
+  }
+  .myWork a {
+    font-size: 1.4rem;
+  }
+  .iconsContainer {
+    width: 2rem;
+    height: 2rem;
+  }
+  .icons {
+    width: 2rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+.myWork {
+  padding: 1rem;
+}
+.myWork h4 {
+  font-size: 1.6rem;
+}
+.myWork ul {
+  font-size: 1.3rem;
+}
+.myWork a {
+  font-size: 1.2rem;
+}
+.techUsed {
+  width: 100%;
+}
+.projectCard {
+  width: 95%;
+}
+}
+
+@media only screen and (max-width: 375px) {
+  .myWork {
+    width: 100%;
+  }
+  .projectCard {
+    width: 90%;
+  }
 }

@@ -36,3 +36,50 @@ hr {
   height: auto;
   width: 1px;
 }
+
+@media only screen and (max-width: 768px) {
+  hr {
+    display: none;
+  }
+  .profile {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .profileText {
+    width: 100%;
+    margin: 0;
+  }
+  .xpText {
+    width: 100%;
+    margin: 0;
+  }
+  .profileText p,
+  .xpText p {
+    font-size: 1.6rem;
+  }
+  .profilePic {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .profile {
+    padding: 1rem;
+  }
+  .profileText p,
+  .xpText p {
+    font-size: 1.3rem;
+  }
+  .profilePic {
+    border-radius: 0;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .profile {
+    width: 100%;
+  }
+}

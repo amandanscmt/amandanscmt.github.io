@@ -27,3 +27,21 @@
 .footer a:hover {
   border-bottom: 0.2rem solid var(--secondary-color);
 }
+
+@media only screen and (max-width: 768px) {
+  .footer h4 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+ .footer {
+  justify-content: center;
+ }
+}
+
+@media only screen and (max-width: 375px) {
+  .footer {
+    width: 100%;
+  }
+}

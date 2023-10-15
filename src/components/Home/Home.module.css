@@ -13,7 +13,8 @@
   align-self: center;
 }
 
-.headerText h1, h2 {
+.headerText h1,
+h2 {
   margin: 0.5rem;
 }
 
@@ -46,4 +47,37 @@
 
 .icons {
   width: 1.7rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .headerImg {
+    width: 20%;
+    object-fit: cover;
+  }
+  .headerText {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .headerImg {
+    display: none;
+  }
+  .header {
+    width: auto;
+  }
+  .headerText {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .header {
+    width: 100%;
+  }
+  .headerText {
+    width: 100%;
+    font-size: 0.8rem;
+  }
 }
