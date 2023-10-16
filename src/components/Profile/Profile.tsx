@@ -32,8 +32,8 @@ const Profile = () => {
             <b>CSS</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>React</b>,{" "}
             <b>Design System</b> e afins. Além disso, através do programa de
             bolsas, me tornei{" "}
-            <b>AWS Certified Cloud Practitioner</b>. No momento estou estudando{" "}
-            <b>Angular</b> e <b>React Native</b>, com o objetivo de aperfeiçoar
+            <b>AWS Certified Cloud Practitioner</b>. No momento estou iniciando meus estudos em {" "}
+            <b>Angular</b> e, em breve, <b>React Native</b>, com o objetivo de aperfeiçoar
             e ampliar meus conhecimentos.
           </p>
         </span>
